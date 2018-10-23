@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+<LinearLayout
+     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+
+    <TextView
+        android:id="@+id/tv1"
+        android:textSize="24sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+       />
+
+  <Button
+      android:id="@+id/bt1"
+      android:onClick="go"
+      android:text="Add New Student"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/bt5"
+        android:onClick="go5"
+        android:text="Add New Student using PUSHID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/bt2"
+        android:onClick="go2"
+        android:text="Update Data of Rollno 1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/bt3"
+        android:onClick="go3"
+        android:text="Update only marks of Rollno 1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/bt4"
+        android:onClick="go4"
+        android:text="Delete Rollno 4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+  <Button
+      android:id="@+id/bt6"
+      android:onClick="go6"
+      android:text="Fetch Data ORDER BY MARKS"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" />
+
+  <Button
+      android:id="@+id/bt7"
+      android:onClick="go7"
+      android:text="Recycler View With Firebase"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" />
+
+</LinearLayout>
+
+</ScrollView>

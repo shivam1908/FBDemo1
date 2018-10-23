@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "711412869141",
+    "firebase_url": "https://vmmclassroomdemo2.firebaseio.com",
+    "project_id": "vmmclassroomdemo2",
+    "storage_bucket": "vmmclassroomdemo2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:711412869141:android:f4b92272f4276241",
+        "android_client_info": {
+          "package_name": "com.example.main_hall.fbdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "711412869141-b1qpbl9cc3si1khkllqtj0gpg8v2tg4g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.main_hall.fbdemo",
+            "certificate_hash": "c136e237e4eaa4ddd8dc1a1bf3ef61a42492560c"
+          }
+        },
+        {
+          "client_id": "711412869141-1srmgjr0muql2ijq6skg56p3j410sghp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjU49CeYPD8wU2nd80IV375j4jztRyKKg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "711412869141-1srmgjr0muql2ijq6skg56p3j410sghp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
